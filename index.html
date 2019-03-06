@@ -94,7 +94,7 @@
             </div>
           </div>
           <div class="col-md-4 col-sm-6 portfolio-item">
-            <a class="portfolio-link" data-toggle="modal" href="#modal">
+            <a class="portfolio-link" data-toggle="modal" href="#perspectiumModal">
               <div class="portfolio-hover">
                 <div class="portfolio-hover-content">
                   <i class="fa fa-plus fa-3x"></i>
@@ -164,7 +164,7 @@
             </div>
           </div>
           <div class="col-md-4 col-sm-6 portfolio-item">
-            <a class="portfolio-link" data-toggle="modal" href="#modal">
+            <a class="portfolio-link" data-toggle="modal" href="#csesModal">
               <div class="portfolio-hover">
                 <div class="portfolio-hover-content">
                   <i class="fa fa-plus fa-3x"></i>
@@ -224,6 +224,12 @@
               <i class="fa fa-graduation-cap fa-stack-1x fa-inverse"></i>
             </span>
             <h4 class="service-heading">Education</h4>
+            <p class="text-muted">
+                Johns Hopkins University <br/>
+                Major: Information Systems Engineering <br/>
+                Specialization: Enterprise & Web Computing <br/>
+                M.S. (2019 - 2022)
+              </p>
             <p class="text-muted">
               University of California, San Diego <br/>
               Major: Computer Engineering <br/>
@@ -380,33 +386,7 @@
 
     <!-- Portfolio Modals -->
 
-    <!-- Modal 0 -->
-    <div class="portfolio-modal modal fade" id="modal" tabindex="-1" role="dialog" aria-hidden="true">
-      <div class="modal-dialog">
-        <div class="modal-content">
-          <div class="close-modal" data-dismiss="modal">
-            <div class="lr">
-              <div class="rl"></div>
-            </div>
-          </div>
-          <div class="container">
-            <div class="row">
-              <div class="col-lg-8 mx-auto">
-                <div class="modal-body">
-                  <p>under construction</p>
-                  <ul class="list-inline">
-                  </ul>
-                  <button class="btn" data-dismiss="modal" type="button">
-                    <i class="fa fa-times"></i>
-                    Close Project</button>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
+    <!-- ServiceNow Modal -->
     <div class="portfolio-modal modal fade" id="servicenowModal" tabindex="-1" role="dialog" aria-hidden="true">
       <div class="modal-dialog">
         <div class="modal-content">
@@ -419,8 +399,8 @@
             <div class="row">
               <div class="col-lg-8 mx-auto">
                 <div class="modal-body">
+                  <img class="img-fluid d-block mx-auto" src="img/servicenowlogosmall.png" alt="">
                   <h2>Agent Workspace</h2>
-                  <img class="img-fluid d-block mx-auto" src="img/servicenow.JPG" alt="">
                   <p>Developed new features, built UI, and fixed bugs for the lists components of the agent workspace.
                     The agent workspace is a new product that aims to help service agents more easily
                     prioritize tasks, organize incidents, and find answers to questions.
@@ -439,7 +419,45 @@
       </div>
     </div>
 
-    <!-- Modal 1 -->
+    <!-- Perspectium Modal -->
+    <div class="portfolio-modal modal fade" id="perspectiumModal" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+              <div class="rl"></div>
+            </div>
+          </div>
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-8 mx-auto">
+                <div class="modal-body">
+                  <img class="img-fluid d-block mx-auto" src="img/perspectiumlogosmall.png" alt="">
+                  <h2>Dashboard & Observer</h2>
+                  <p>Developed new features, built UI, and fixed bugs for the dashboard and observer.
+                    The dashboard provides a common view into the performance, processing and availability
+                    information related to all Perspectium components across the user's ServiceNow instances
+                    and Replicator Agents. The observer is used by DevOps to continuously monitor and analyze
+                    ServiceNow application metrics and attributes in order to optimize production instance performance, 
+                    predict performance issues.
+                  </p>
+                  <img class="img-fluid d-block mx-auto" src="img/perspectiumobserver.png" alt=""/>
+                  <ul class="list-inline">
+                    <li><a href="http://wiki.perspectium.com/doku.php?id=observer_overview">Check Out the Observer Wiki!</a></li>
+                    <li><a href="http://wiki.perspectium.com/doku.php?id=dashboard_overview">Check Out the Dashboard Wiki!</a></li>
+                  </ul>
+                  <button class="btn" data-dismiss="modal" type="button">
+                    <i class="fa fa-times"></i>
+                    Close Project</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Quarter Harmony Modal -->
     <div class="portfolio-modal modal fade" id="quarterharmonyModal" tabindex="-1" role="dialog" aria-hidden="true">
       <div class="modal-dialog">
         <div class="modal-content">
@@ -509,7 +527,7 @@
       </div>
     </div>
 
-    <!-- Modal 2 -->
+    <!-- NeatCode Modal -->
     <div class="portfolio-modal modal fade" id="neatcodeModal" tabindex="-1" role="dialog" aria-hidden="true">
       <div class="modal-dialog">
         <div class="modal-content">
@@ -550,7 +568,46 @@
       </div>
     </div>
 
-    <!-- Modal 3 -->
+    <!-- CSES Modal -->
+    <div class="portfolio-modal modal fade" id="csesModal" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+              <div class="rl"></div>
+            </div>
+          </div>
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-8 mx-auto">
+                <div class="modal-body">
+                  <img class="img-fluid d-block mx-auto" src="img/cseslogosmall.png" alt="">
+                  <h2>Website Redesign</h2>
+                  <a href="https://docs.google.com/document/d/1VaEHhhjwHBN1Rvbda3s0QOC-QGpvIpzX88OclhmNGnY/edit">Client Proposal and Initial Requirements Gathering</a></br>
+                  <a href="https://docs.google.com/document/d/1o8a_54CJO_4otsHLWKYrmYbFRU-RyApPm82dVsnh_MI/edit">User Interviews</a></br>
+                  <a href="https://docs.google.com/presentation/d/1asr8xKf24bCOc92p849-dHcn_zBCdDPawJYs2HnJQyw/edit">Competitive Analysis & Mood Board</a></br>
+                  <a href="https://docs.google.com/document/d/1gO7tvWS90JhDtlKiQSjOwR6fgfOjtiIdZ7sgKLRdcAM/edit">Creative Brief</a></br>
+                  <a href="https://docs.google.com/presentation/d/1gD9Jczxb0A3XGvGfdyE_S02LzryiRCEgGaPDsuE-AzA/edit#slide=id.p">Wireframing and Functional Spec</a></br>
+                  <a href="https://docs.google.com/presentation/d/1I-9SPFWsBRY1FnrIVG4nYAPPSC1QZTRY7AxIadYZ_UU/edit">Prototype 1</a></br>
+                  <a href="https://docs.google.com/document/d/1i1fv8wcNp8jNZL3k5YmREV5oJ66Ydufg5TrzoHJZURg/edit">Final Prototype<a/></br></br>
+                  <ul class="list-inline">
+                    <li><a href="https://www.figma.com/proto/6iPWlo3AoHoyOGMV38ICrh/COGS-187B---CSES-Mobile-Prototype?node-id=0%3A1&scaling=scale-down">Try the CSES Mobile Prototype!</a></li>
+                    <li><a href="https://www.figma.com/proto/QKQA7DMGCYvQmoi67PRJlY/COGS-187B---CSES-Desktop-Prototype?node-id=8%3A3&scaling=min-zoom">Try the CSES Desktop Prototype!</a></li>
+                  </ul>
+                  <ul class="list-inline">
+                  </ul>
+                  <button class="btn" data-dismiss="modal" type="button">
+                    <i class="fa fa-times"></i>
+                    Close Project</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Ripple Modal -->
     <div class="portfolio-modal modal fade" id="rippleModal" tabindex="-1" role="dialog" aria-hidden="true">
       <div class="modal-dialog">
         <div class="modal-content">
@@ -621,7 +678,7 @@
       </div>
     </div>
 
-    <!-- Modal 4 -->
+    <!-- Dog or Nah Modal -->
     <div class="portfolio-modal modal fade" id="dogornahModal" tabindex="-1" role="dialog" aria-hidden="true">
       <div class="modal-dialog">
         <div class="modal-content">
@@ -685,7 +742,7 @@
       </div>
     </div>
 
-    <!-- Modal 5 -->
+    <!-- ReMemo Modal -->
     <div class="portfolio-modal modal fade" id="rememoModal" tabindex="-1" role="dialog" aria-hidden="true">
       <div class="modal-dialog">
         <div class="modal-content">
@@ -750,7 +807,7 @@
       </div>
     </div>
 
-    <!-- Modal 6 -->
+    <!-- Edspiration Modal -->
     <div class="portfolio-modal modal fade" id="edspirationModal" tabindex="-1" role="dialog" aria-hidden="true">
       <div class="modal-dialog">
         <div class="modal-content">
